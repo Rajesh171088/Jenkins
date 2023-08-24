@@ -5,8 +5,6 @@
     <classes>
       <class name="com.greentrade.vendor.CreateNewTroubleTicketTest"/>
       <class name="com.greentrade.vendor.CreateNewQuotataionTest"/>
-      <class name="grid.BaseClass"/>
-      <class name="practice.BrokenLinks"/>
       <class name="com.greentrade.vendor.VerifyTooltipTextOfCampaignTest"/>
       <class name="com.greentrade.vendor.CreateNewOpportunityTest"/>
     </classes>
