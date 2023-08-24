@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.greentrade.vendor.CreateNewTroubleTicketTest">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="login"/>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createNewTroubleTicketTest"/>
+          <include name="connectToDataBase"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.greentrade.vendor.CreateNewTroubleTicketTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="methods" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.greentrade.vendor.CreateNewTroubleTicketTest">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="login"/>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createNewTroubleTicketTest"/>
+          <include name="connectToDataBase"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.greentrade.vendor.CreateNewTroubleTicketTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="methods" name="Test3(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.greentrade.vendor.CreateNewTroubleTicketTest">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="login"/>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createNewTroubleTicketTest"/>
+          <include name="connectToDataBase"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.greentrade.vendor.CreateNewTroubleTicketTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
