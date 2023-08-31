@@ -5,13 +5,13 @@ import java.io.FileNotFoundException;
 import java.util.Properties;
 /**
  *  used to read data from external files like text , proprties
- * @author Vivek
+ * @author Rajesh B
  *
  */
 public class FileUtlity {
 	
 	/**
-	 * used to get the filepaths from the  /config/filepath.properties  FILE
+	 * used to get the filepaths from the /config/filepath.properties  FILE
 	 * @param key
 	 * @return value
 	 * @throws Throwable

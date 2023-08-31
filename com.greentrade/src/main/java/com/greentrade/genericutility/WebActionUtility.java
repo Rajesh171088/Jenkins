@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * contains all web browser related actions which includes mouse move , select , switchToWindow , wait etc
- * @author Vivek
+ * @author Rajesh B
  *
  */
 public class WebActionUtility {
@@ -233,10 +233,10 @@ public class WebActionUtility {
 	 * @param elemnet
 	 */
 	
-	public void rightClickOnElement(WebDriver driver , WebElement elemnet)
+	public void rightClickOnElement(WebDriver driver , WebElement element)
 	{
 		Actions act = new Actions(driver);
-		act.contextClick(elemnet).perform();
+		act.contextClick(element).perform();
 	}
 	
 	/**
@@ -286,13 +286,5 @@ public class WebActionUtility {
 			// TODO: handle exception
 		}
 		return screenShotName;
-	   }
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
+	   }	   
 }

@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.greentrade.vendor.CreateNewOpportunityTest">
+      <class name="grid.BaseClass">
         <methods>
-          <include name="closeDBConnection"/>
-          <include name="login"/>
-          <include name="OpenBrowser"/>
-          <include name="createNewOpportunityTest"/>
-          <include name="closeBrowser"/>
-          <include name="connectToDataBase"/>
-          <include name="logout"/>
+          <include name="remoteExecution"/>
+          <include name="gridPractice"/>
         </methods>
-      </class> <!-- com.greentrade.vendor.CreateNewOpportunityTest -->
+      </class> <!-- grid.BaseClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

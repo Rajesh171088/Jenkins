@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import com.mysql.jdbc.Driver;
 /**
  * used to connect to Db & perform DB specific Operations
- * @author Vivek
+ * @author Rajesh B
  *
  */
 public class DataBaseUtility {
@@ -93,7 +93,7 @@ public class DataBaseUtility {
 		boolean flag=false;
 		result=connection.createStatement().executeQuery(querry);
 		while(result.next()) {
-			if(result.getString(cloumnIndex).equals(expectedData)) {
+			if(result.getString(cloumnIndex).equalsIgnoreCase(expectedData)) {
 				flag=true;
 				break;
 			}

@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * contains java specific utility
  * 
- * @author Vivek
+ * @author Rajesh B
  *
  */
 public class JavaUtlity {
@@ -49,6 +49,7 @@ public class JavaUtlity {
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.DATE, requiredDateCount);
 		Date date = cal.getTime();
+		System.out.println("date: "+date);
 		String rdata = sim.format(date);
 		return rdata;
 	}
